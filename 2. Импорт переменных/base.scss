@@ -1,0 +1,8 @@
+$base: #151515;
+$primary: #9938df;
+$secondary: #cd87ff !default; // !default говорит о том, что значение этой переменной можно будет поменять
+
+h1 {
+    color: $primary;
+    background: $base;
+}

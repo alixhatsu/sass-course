@@ -1,0 +1,12 @@
+%template {
+    color: red;
+}
+
+.red {
+    @extend %template;
+    background-color: green;
+}
+
+.blue {
+    @extend %template;
+}

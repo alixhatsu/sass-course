@@ -1,0 +1,35 @@
+.parent {
+    color: red;
+
+    &:hover {
+        color: brown;
+    }
+
+    &::after {
+        content: 'hi'
+    }
+}
+
+.parent {
+    :not(&) {
+        color: red;
+    }
+}
+
+.parent {
+    body & {
+        font-size: 16px;
+    }
+}
+
+.parent {
+    &-el {
+        width: 100px;
+    }
+}
+
+.header {
+    &__container {
+        max-width: 85%;
+    }
+}

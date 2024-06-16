@@ -1,0 +1,25 @@
+$light: true;
+
+@if $light {
+    body {
+        color: black;
+        background: white;
+    }
+} @else {
+    body {
+        color: white;
+        background: black;
+    }
+}
+
+$size: "big";
+
+@if $size == "small" {
+    div {
+        width: 10px;
+    }
+} @else if $size == "big" {
+    div {
+        width: 50px;
+    }
+}

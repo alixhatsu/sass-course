@@ -1,0 +1,14 @@
+div {
+  padding: 10px;
+}
+div p {
+  color: red;
+}
+
+div > p {
+  color: red;
+}
+
+.red h1, .red p, .blue h1, .blue p {
+  color: violet;
+}/*# sourceMappingURL=style.css.map */

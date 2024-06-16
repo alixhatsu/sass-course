@@ -1,0 +1,10 @@
+$accent: #38DFDF;
+
+p {
+    $accent: #FFFFFF !global; //без !global это значение осталось бы здесь, однако теперь оно переписало глоабольное значение; в следующем использовании accent он будет равен #ffffff
+    color: $accent;
+}
+
+h1 {
+    color: $accent;
+}

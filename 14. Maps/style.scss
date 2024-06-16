@@ -1,0 +1,24 @@
+$colors: (
+    day: (
+        text: black,
+        background: white
+    ),
+    night: (
+        text: white,
+        background: black
+    )
+);
+
+@function theme($h24, $type) {
+    @return map-get(map-get($colors, $h24), $type);
+}
+
+.class {
+    color: theme(day, text);
+    background-color: theme(day, background);
+}
+
+.class-night {
+    color: theme(night, text);
+    background-color: theme(night, background);
+}

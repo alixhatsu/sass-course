@@ -1,0 +1,9 @@
+$v: true;
+
+h1 {
+    @if $v {
+        color: green;
+    } @else {
+        color: red;
+    }
+}

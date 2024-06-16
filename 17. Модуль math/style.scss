@@ -1,0 +1,16 @@
+@use "sass:math";
+
+@warn math.$pi;
+@warn math.$e;
+
+@warn math.round(4.9);
+@warn math.sqrt(49);
+@warn math.random(10);
+@warn math.div(4, 2);
+
+
+$sizes: 12px, 16px, 24px;
+
+.smallest {
+    width: math.min($sizes...);
+}

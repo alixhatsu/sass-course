@@ -1,0 +1,25 @@
+.parent {
+  color: red;
+}
+.parent:hover {
+  color: brown;
+}
+.parent::after {
+  content: "hi";
+}
+
+:not(.parent) {
+  color: red;
+}
+
+body .parent {
+  font-size: 16px;
+}
+
+.parent-el {
+  width: 100px;
+}
+
+.header__container {
+  max-width: 85%;
+}/*# sourceMappingURL=style.css.map */

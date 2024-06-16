@@ -1,0 +1,7 @@
+@use 'base' as b with (
+    $secondary: #cd87ff,
+);
+
+p {
+    color: b.$secondary;
+}

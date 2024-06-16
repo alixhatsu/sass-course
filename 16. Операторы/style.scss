@@ -1,0 +1,26 @@
+@warn 2 == 3;
+@warn 4 != 2;
+
+@warn 12px < 14px;
+@warn 12s > 14s;
+@warn 12em >= 14em;
+@warn 12vw >= 14vw;
+
+@warn 14s == 1400ms;
+
+// @error 14s < 14px;
+
+@warn 1 + 1;
+@warn 4 - 1;
+@warn 2 * 3;
+@warn 18 / 6;
+@warn 7 % 3;
+
+@warn "hello" + " guys";
+@warn hello + guys;
+@warn hello - guys;
+
+@warn not true;
+@warn not false;
+@warn 0 != 1 and true;
+@warn 0 == 1 or false;

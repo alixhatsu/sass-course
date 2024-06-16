@@ -1,0 +1,12 @@
+@mixin btn($size: "normal", $bg-color) {
+    @if $size == "normal" {
+        padding: 15px 10px;
+    } @else if $size == "small" {
+        padding: 10px 5px;
+    }
+    background-color: $bg-color;
+}
+
+a {
+    @include btn($bg-color: violet);
+}

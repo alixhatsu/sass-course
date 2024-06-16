@@ -1,0 +1,9 @@
+$counter: 1;
+$max: 5;
+
+@while $counter <= $max {
+  .margin-#{$counter} {
+    margin: $counter * 10px;
+  }
+  $counter: $counter + 1;
+}

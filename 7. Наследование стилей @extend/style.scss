@@ -1,0 +1,9 @@
+.btn {
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.red-btn {
+    @extend .btn;
+    background-color: red;
+}

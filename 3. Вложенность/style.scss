@@ -1,0 +1,19 @@
+div {
+    padding: 10px;
+
+    p {
+        color: red;
+    }
+}
+
+div > {
+    p {
+        color: red;
+    }
+}
+
+.red, .blue {
+    h1, p {
+        color: violet;
+    }
+}
